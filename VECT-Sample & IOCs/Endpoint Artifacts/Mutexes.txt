@@ -1,0 +1,9 @@
+Local\SM0:5780:304:WilStaging_02
+Local\SM0:4068:304:WilStaging_02
+Local\SM0:4716:304:WilStaging_02
+Local\WERReportingForProcess1184
+Global\AmiProviderMutex_InventoryApplicationFile
+Global\e69c1388-9c2d-40aa-a678-f6c221c16169
+Local\SM0:4716:120:WilError_03
+Local\SM0:688:304:WilStaging_02
+Local\SM0:3304:304:WilStaging_02

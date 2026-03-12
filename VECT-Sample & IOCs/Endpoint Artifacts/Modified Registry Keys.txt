@@ -1,0 +1,34 @@
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SafeBoot\Minimal\vect
+HKLM\SYSTEM\ControlSet001\Control\SafeBoot\Minimal\vect\(Default)
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SafeBoot\Network\vect
+HKLM\SYSTEM\ControlSet001\Control\SafeBoot\Network\vect\(Default)
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\vect
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System
+HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\DisableTaskMgr
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS\Diag\SwProvider_{b5946137-7b9f-4925-af80-51abd60b20d5}
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS\Diag\Registry Writer
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS\Diag\COM+ REGDB Writer
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS\Diag\ASR Writer
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VSS\Diag\Shadow Copy Optimization Writer
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\WritePermissionsCheck
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\PermissionsCheckTestKey
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\ProgramId
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\FileId
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\LowerCaseLongPath
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\LongPathHash
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\Name
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\OriginalFileName
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\Publisher
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\Version
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\BinFileVersion
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\BinaryType
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\ProductName
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\ProductVersion
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\LinkDate
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\BinProductVersion
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\AppxPackageFullName
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\AppxPackageRelativeId
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\Size
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\Language
+\REGISTRY\A\{b4e9dfa9-eb43-6098-a7fe-051b896d418f}\Root\InventoryApplicationFile\vect.exe|6913bb3f192e56a5\Usn

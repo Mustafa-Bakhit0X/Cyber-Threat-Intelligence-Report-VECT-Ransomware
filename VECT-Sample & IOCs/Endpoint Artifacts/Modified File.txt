@@ -1,0 +1,40 @@
+\Device\LanmanDatagramReceiver
+\??\PIPE\wkssvc
+\??\PIPE\DAV RPC SERVICE
+%LocalAppData%\Temp\!!!_READ_ME_!!!.txt
+%LocalAppData%\Temp\!!!_READ_ME_!!!.txt
+%LocalAppData%\Temp\!!!_READ_ME_!!!.txt
+C:\DumpStack.log.tmp.vect
+C:\Users\<USER>\Desktop\!!!_READ_ME_!!!.txt
+C:\Recovery\ReAgentOld.xml
+C:\Users\<USER>\Desktop\!!!_READ_ME_!!!.txt
+C:\Users\<USER>\Desktop\!!!_READ_ME_!!!.txt
+C:\!!!_READ_ME_!!!.txt
+%LocalAppData%\Temp\__PSScriptPolicyTest_f0kiq11u.lbs.ps1
+\??\CONOUT$
+%LocalAppData%\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+%LocalAppData%\Microsoft\CLR_v4.0\UsageLogs\powershell.exe.log
+%WINDIR%\System32\wbem\repository\WRITABLE.TST
+%WINDIR%\System32\wbem\repository\MAPPING1.MAP
+%WINDIR%\System32\wbem\repository\MAPPING2.MAP
+%WINDIR%\System32\wbem\repository\MAPPING3.MAP
+%WINDIR%\System32\wbem\repository\OBJECTS.DATA
+%WINDIR%\System32\wbem\repository\INDEX.BTR
+\??\pipe\PIPE_EVENTROOT\CIMV2WMI SELF-INSTRUMENTATION EVENT PROVIDER
+\??\pipe\PIPE_EVENTROOT\CIMV2PROVIDERSUBSYSTEM
+\??\Volume{92094ac3-0000-0000-0000-100000000000}
+\??\Volume{92094ac3-0000-0000-0000-300300000000}
+\??\Volume{92094ac3-0000-0000-0000-10e01f000000}
+C:\ProgramData\Microsoft\Windows\WER\Temp
+C:\ProgramData\Microsoft\Windows\WER\Temp\4e0ccc3d-72ec-41b4-bc30-a9f6aa35cf1d
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue
+C:\ProgramData\Microsoft\Windows\WER\Temp\843a09a4-e778-4a7d-90eb-5db55f6435f8
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive
+C:\ProgramData\Microsoft\Windows\WER\Temp\79a90558-21b6-4103-bf6f-e41cda0a28d6
+C:\ProgramData\Microsoft\Windows\WER\Temp\3ee0f583-80e1-4091-85be-c51d8f930277
+C:\ProgramData\Microsoft\Windows\WER\ReportArchive\47c87d1f-8885-4d88-a7d3-1c8a4dd2fd81
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\b9f4dd7c-9a24-4d58-939a-8b4099e86937
+C:\ProgramData\Microsoft\Windows\WER\Temp\WER8CD9.tmp.dmp
+C:\ProgramData\Microsoft\Windows\WER\Temp\WERA505.tmp.WERInternalMetadata.xml
+C:\ProgramData\Microsoft\Windows\WER\Temp\WERA600.tmp.xml
+Powered by CAPE Sandbox

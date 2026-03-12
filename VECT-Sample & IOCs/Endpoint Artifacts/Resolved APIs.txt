@@ -1,0 +1,4 @@
+ntdll.dll.RtlWow64GetCurrentMachine
+ntdll.dll.RtlWow64IsWowGuestMachineSupported
+ntdll.dll.NtSuspendProcess
+ntdll.dll.NtResumeProcess

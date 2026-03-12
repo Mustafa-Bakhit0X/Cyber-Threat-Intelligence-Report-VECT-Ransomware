@@ -1,0 +1,8 @@
+C:\DumpStack.log.tmp
+%LocalAppData%\Temp\__PSScriptPolicyTest_f0kiq11u.lbs.ps1
+C:\ProgramData\Microsoft\Windows\WER\Temp\WER8CD9.tmp
+C:\ProgramData\Microsoft\Windows\WER\Temp\WERA505.tmp
+C:\ProgramData\Microsoft\Windows\WER\Temp\WERA600.tmp
+C:\ProgramData\Microsoft\Windows\WER\Temp\WER8CD9.tmp.dmp
+C:\ProgramData\Microsoft\Windows\WER\Temp\WERA505.tmp.WERInternalMetadata.xml
+C:\ProgramData\Microsoft\Windows\WER\Temp\WERA600.tmp.xml

